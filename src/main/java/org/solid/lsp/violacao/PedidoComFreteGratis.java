@@ -16,7 +16,7 @@ public class PedidoComFreteGratis extends Pedido {
         // A regra de frete grátis sobrescreve a lógica da superclasse,
         // garantindo que o valorFinal permaneça igual ao valorBruto.
         this.valorFrete = 0.0;
-        this.valorFinal = this.valorBruto; // Quebra a expectativa de um aumento
+        this.valorFinal = this.valorBruto; //    Quebra a expectativa de um aumento
         System.out.println("Frete grátis aplicado. Valor final mantido.");
     }
 
